@@ -1,0 +1,4 @@
+# app-ads.txt for akheerstudio.com
+# IMPORTANT: Replace the line below with your real AdMob publisher ID.
+# Find it in AdMob: Settings -> Account information -> Publisher ID (pub-XXXXXXXXXXXXXXXX)
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
