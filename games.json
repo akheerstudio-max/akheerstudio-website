@@ -1,0 +1,68 @@
+{
+  "games": [
+    {
+      "pkg": "com.akheerstudio.fpswar.gunshooting",
+      "title": "FPS War: Gun Shooting",
+      "icon": "https://play-lh.googleusercontent.com/iUvXc-aPhig6p5PsIHaxufvNzIwrhWs6RdweSEqYWyMrRYUrHGMQMXH5DDSL1luF2o_lz7N5sMzP-Lh8i6_DaA",
+      "cat": "action",
+      "catLabel": "Action · FPS",
+      "rating": null,
+      "badge": "PRE-REGISTER",
+      "featured": true,
+      "featuredDesc": "Offline gun shooting with intense FPS action, battle missions and fighting.",
+      "manual": true
+    },
+    {
+      "pkg": "com.akheerstudio.gunship",
+      "title": "Gunship Helicopter War",
+      "icon": "https://play-lh.googleusercontent.com/0lG5pbXhQgZIC95VU8q8hfeYCVxxJI_pW_iQjVezsAaXYcOwk-R4JSOwakn30DKkgbPoROf4JBhSFbgjCTFCsQ",
+      "cat": "action",
+      "catLabel": "Action · ★ 3.8",
+      "rating": "★ 3.8",
+      "badge": "FREE",
+      "featured": true,
+      "featuredDesc": "Command the skies. Intense helicopter combat across hostile territory."
+    },
+    {
+      "pkg": "com.akheerstudio.realtractorfarmingsimulator1892",
+      "title": "Tractor Farming Simulator",
+      "icon": "https://play-lh.googleusercontent.com/c1zo5_XyHVOhpx17vb5nSJ-m3_p-PuPugQGgL5NyCvWv3jY1dxFlclrNcIQ_VGlFmiIJxt5IBK2Ch09b8m0q",
+      "cat": "simulation",
+      "catLabel": "Farming · ★ 4.4",
+      "rating": "★ 4.4",
+      "badge": "FREE",
+      "featured": true,
+      "featuredDesc": "Plow, plant and harvest. Real farming missions in the countryside."
+    },
+    {
+      "pkg": "com.akheerstudio.truck.simulation",
+      "title": "US Cargo Truck Driver",
+      "icon": "https://play-lh.googleusercontent.com/Iqt_tqLhKM-vbKDERmVFxKIw0kR8aMM3fsozn9jqCwVAyOs46aiQ303CKgNarJ5idkvW9atg2nXSSa0OzrMWhQ",
+      "cat": "simulation",
+      "catLabel": "Simulation",
+      "rating": null,
+      "badge": "FREE",
+      "featured": false
+    },
+    {
+      "pkg": "com.AkheerStudio.AirForceMissileDefenseSimulationWarGame",
+      "title": "Air Force Missile War",
+      "icon": "https://play-lh.googleusercontent.com/sNmC_DmXwJ89NIDgHlAetZobOZd0gf_0jwrqqNDesYPH97EhrCY7WKOh5VwCiMEMQ9oT603VW2fTCLhyg8bRU3Q",
+      "cat": "action",
+      "catLabel": "Action · ★ 3.1",
+      "rating": "★ 3.1",
+      "badge": "FREE",
+      "featured": false
+    },
+    {
+      "pkg": "com.akheerstudio.ultimate.badminton.league",
+      "title": "Badminton Super League 3D",
+      "icon": "https://play-lh.googleusercontent.com/E1bNn_2C5ztFojBiAysNzWRrHCs-mvojK9a8y49kpbKCkez-4oU5xkr_7MPwpE-cJ5wGMcuXMmoGCzstxNyP0A",
+      "cat": "sports",
+      "catLabel": "Sports",
+      "rating": null,
+      "badge": "FREE",
+      "featured": false
+    }
+  ]
+}
