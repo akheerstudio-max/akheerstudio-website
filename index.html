@@ -46,12 +46,14 @@
   .games { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
   .card { background: #10141C; border: 1px solid #1B2028; border-radius: 8px; overflow: hidden; display: block; transition: transform .15s, border-color .15s; }
   .card:hover { transform: translateY(-4px); border-color: #E8B437; }
-  .card .art { height: 190px; display: flex; align-items: center; justify-content: center; background: #0D1117; }
+  .card .art { position: relative; height: 190px; display: flex; align-items: center; justify-content: center; background: #0D1117; }
   .card .art img { width: 120px; height: 120px; border-radius: 24px; object-fit: cover; box-shadow: 0 10px 30px rgba(0,0,0,.5); }
+  .badge-pre { position: absolute; top: 12px; right: 12px; background: #1D9E75; color: #04342C; font-size: 10px; font-weight: 600; letter-spacing: 1px; padding: 4px 9px; border-radius: 4px; }
   .card .body { padding: 16px 18px; }
   .card h3 { font-size: 14px; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase; }
   .card .meta { display: flex; justify-content: space-between; font-size: 12px; color: #8A919F; }
   .card .meta .free { color: #E8B437; letter-spacing: 1px; }
+  .card .meta .pre { color: #5DCAA5; letter-spacing: 1px; }
   .about { background: #10141C; border: 1px solid #1B2028; border-radius: 8px; padding: 34px; display: flex; gap: 30px; align-items: center; margin: 25px 0 55px; }
   .about img { width: 110px; height: 110px; border-radius: 16px; object-fit: cover; }
   .about h2 { font-size: 22px; letter-spacing: 3px; margin-bottom: 10px; }
@@ -96,19 +98,19 @@
   <div class="wrap">
     <div class="hero-grid">
       <div class="hero-text">
-        <div class="tag">FEATURED GAME</div>
-        <h1 id="hero-title">Gunship Helicopter War</h1>
-        <p class="desc" id="hero-desc">Command the skies. Intense helicopter combat across hostile territory.</p>
+        <div class="tag" id="hero-tag">NEW · PRE-REGISTER</div>
+        <h1 id="hero-title">FPS War: Gun Shooting</h1>
+        <p class="desc" id="hero-desc">Offline gun shooting with intense FPS action, battle missions and fighting.</p>
         <div class="badges">
-          <span class="rate" id="hero-rate">★ 3.8</span>
+          <span class="rate" id="hero-rate" style="color:#5DCAA5">● PRE-REGISTER</span>
           <span class="tag2" id="hero-cat">ACTION</span>
-          <span class="tag2">FREE</span>
+          <span class="tag2" id="hero-free">SOON</span>
         </div>
         <div>
-          <a class="btn btn-gold" id="hero-link" href="https://play.google.com/store/apps/details?id=com.akheerstudio.gunship" target="_blank" rel="noopener"><i class="ti ti-brand-google-play"></i> PLAY NOW</a>
+          <a class="btn btn-gold" id="hero-link" href="https://play.google.com/store/apps/details?id=com.akheerstudio.fpswar.gunshooting" target="_blank" rel="noopener"><i class="ti ti-brand-google-play"></i> PRE-REGISTER</a>
         </div>
       </div>
-      <div class="hero-art"><img id="hero-icon" src="https://play-lh.googleusercontent.com/0lG5pbXhQgZIC95VU8q8hfeYCVxxJI_pW_iQjVezsAaXYcOwk-R4JSOwakn30DKkgbPoROf4JBhSFbgjCTFCsQ=s512" alt="Featured game icon" referrerpolicy="no-referrer"></div>
+      <div class="hero-art"><img id="hero-icon" src="https://play-lh.googleusercontent.com/iUvXc-aPhig6p5PsIHaxufvNzIwrhWs6RdweSEqYWyMrRYUrHGMQMXH5DDSL1luF2o_lz7N5sMzP-Lh8i6_DaA=s512" alt="Featured game icon" referrerpolicy="no-referrer"></div>
     </div>
   </div>
   <div class="dots" id="dots"></div>
@@ -126,6 +128,10 @@
       </div>
     </div>
     <div class="games" id="game-grid">
+      <a class="card" data-cat="action" href="https://play.google.com/store/apps/details?id=com.akheerstudio.fpswar.gunshooting" target="_blank" rel="noopener">
+        <div class="art"><span class="badge-pre">PRE-REGISTER</span><img src="https://play-lh.googleusercontent.com/iUvXc-aPhig6p5PsIHaxufvNzIwrhWs6RdweSEqYWyMrRYUrHGMQMXH5DDSL1luF2o_lz7N5sMzP-Lh8i6_DaA=s256" alt="FPS War Gun Shooting icon" referrerpolicy="no-referrer"></div>
+        <div class="body"><h3>FPS War: Gun Shooting</h3><div class="meta"><span>Action · FPS</span><span class="pre">PRE-REGISTER</span></div></div>
+      </a>
       <a class="card" data-cat="simulation" href="https://play.google.com/store/apps/details?id=com.akheerstudio.truck.simulation" target="_blank" rel="noopener">
         <div class="art"><img src="https://play-lh.googleusercontent.com/Iqt_tqLhKM-vbKDERmVFxKIw0kR8aMM3fsozn9jqCwVAyOs46aiQ303CKgNarJ5idkvW9atg2nXSSa0OzrMWhQ=s256" alt="US Cargo Truck Driver icon" referrerpolicy="no-referrer"></div>
         <div class="body"><h3>US Cargo Truck Driver</h3><div class="meta"><span>Simulation</span><span class="free">FREE</span></div></div>
@@ -191,6 +197,7 @@
 
 <script>
 var slides = [
+  { title: "FPS War: Gun Shooting", desc: "Offline gun shooting with intense FPS action, battle missions and fighting.", rate: "● PRE-REGISTER", cat: "ACTION", pre: true, icon: "https://play-lh.googleusercontent.com/iUvXc-aPhig6p5PsIHaxufvNzIwrhWs6RdweSEqYWyMrRYUrHGMQMXH5DDSL1luF2o_lz7N5sMzP-Lh8i6_DaA=s512", link: "https://play.google.com/store/apps/details?id=com.akheerstudio.fpswar.gunshooting" },
   { title: "Gunship Helicopter War", desc: "Command the skies. Intense helicopter combat across hostile territory.", rate: "★ 3.8", cat: "ACTION", icon: "https://play-lh.googleusercontent.com/0lG5pbXhQgZIC95VU8q8hfeYCVxxJI_pW_iQjVezsAaXYcOwk-R4JSOwakn30DKkgbPoROf4JBhSFbgjCTFCsQ=s512", link: "https://play.google.com/store/apps/details?id=com.akheerstudio.gunship" },
   { title: "Tractor Farming Simulator", desc: "Plow, plant and harvest. Real farming missions in the countryside.", rate: "★ 4.4", cat: "FARMING", icon: "https://play-lh.googleusercontent.com/c1zo5_XyHVOhpx17vb5nSJ-m3_p-PuPugQGgL5NyCvWv3jY1dxFlclrNcIQ_VGlFmiIJxt5IBK2Ch09b8m0q=s512", link: "https://play.google.com/store/apps/details?id=com.akheerstudio.realtractorfarmingsimulator1892" },
   { title: "US Cargo Truck Driver", desc: "Haul heavy cargo across highways in a realistic truck simulation.", rate: "★ New", cat: "SIMULATION", icon: "https://play-lh.googleusercontent.com/Iqt_tqLhKM-vbKDERmVFxKIw0kR8aMM3fsozn9jqCwVAyOs46aiQ303CKgNarJ5idkvW9atg2nXSSa0OzrMWhQ=s512", link: "https://play.google.com/store/apps/details?id=com.akheerstudio.truck.simulation" }
@@ -207,8 +214,13 @@ function show(i) {
   var s = slides[i];
   document.getElementById("hero-title").textContent = s.title;
   document.getElementById("hero-desc").textContent = s.desc;
-  document.getElementById("hero-rate").textContent = s.rate;
+  var rateEl = document.getElementById("hero-rate");
+  rateEl.textContent = s.rate;
+  rateEl.style.color = s.pre ? "#5DCAA5" : "#E8B437";
   document.getElementById("hero-cat").textContent = s.cat;
+  document.getElementById("hero-tag").textContent = s.pre ? "NEW · PRE-REGISTER" : "FEATURED GAME";
+  document.getElementById("hero-free").textContent = s.pre ? "SOON" : "FREE";
+  document.getElementById("hero-link").innerHTML = '<i class="ti ti-brand-google-play"></i> ' + (s.pre ? "PRE-REGISTER" : "PLAY NOW");
   document.getElementById("hero-link").href = s.link;
   document.getElementById("hero-icon").src = s.icon;
   var dots = dotsEl.children;
