@@ -847,3 +847,32 @@ vidoomy.com, 8953515, RESELLER
 
 # Arslan apps Admob
 google.com, pub-5103438422978816, DIRECT, f08c47fec0942fa0
+
+# Liftoff Monetize resellers (added 2026-10-26)
+admanmedia.com,20,RESELLER
+adwmg.com,101303,RESELLER,c9688a22012618e7
+betweendigital.com,47049,RESELLER
+bid-matrix.com,c234315848988d17,RESELLER
+bidmachine.io,147,RESELLER
+bidmachine.io,148,RESELLER
+bidmachine.io,189,RESELLER
+bidmachine.io,190,RESELLER
+bidmachine.io,192,RESELLER
+bigo.sg,8m4jk4b9d6,RESELLER
+display.io,222480,RESELLER
+display.io,2499,RESELLER
+hyperaudience.com,312,RESELLER
+hyperaudience.com,313,RESELLER
+ignitemediatech.com,pub_11114,RESELLER
+indexexchange.com,219174,RESELLER,50b1c356f2c5c8fc
+mindtos.com,maca7398339177c05,RESELLER
+pubmatic.com,168363,RESELLER,5d62403b186f2ace
+pubmatic.com,168367,RESELLER,5d62403b186f2ace
+risecodes.com,66fab6981efdb80001a3dadc,RESELLER,79929e88b2ba73bc
+rtbmax.com,68b8fb28c310663c8d21c90e,RESELLER
+silvermob.com,576,RESELLER
+taurusx.com,70090,RESELLER
+tradplusad.com,cc37417e7e7108a3,RESELLER
+ushareit.com,LCc6b8b1c8aca38e6f,RESELLER
+verve.com,1007302,RESELLER,0c8f5958fc2d6282
+visiblemeasures.com,1090,RESELLER
